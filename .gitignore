@@ -1,0 +1,8 @@
+# VSCode
+*.code-workspace
+
+*.gitconfig.work
+
+_src/
+
+primeapp/coverage.out
