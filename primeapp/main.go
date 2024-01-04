@@ -6,7 +6,7 @@ func main() {
 
 	n := 3
 
-	fmt.Println("started...")
+	fmt.Println("started....")
 
 	_, msg := isPrime(n)
 	fmt.Println(msg)
