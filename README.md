@@ -27,6 +27,8 @@ go test -coverprofile=coverage.out
 // show the covered code: 
 go tool cover -html=coverage.out
 
+// combine:
+go test -coverprofile=coverage.out && go tool cover -html=coverage.out
 
 --**************************
 --**************************
