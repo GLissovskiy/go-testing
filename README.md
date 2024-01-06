@@ -33,3 +33,13 @@ go test -coverprofile=coverage.out && go tool cover -html=coverage.out
 --**************************
 --**************************
 --**************************
+
+// running an individual test: go test -run [test_func_name]
+go test -v -run Test_isPrime
+
+// running group of tests: go test -v -run [test_func_same_part_name]
+go test -v -run Test_alpha
+
+--**************************
+--**************************
+--**************************
