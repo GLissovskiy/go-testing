@@ -30,16 +30,32 @@ go tool cover -html=coverage.out
 // combine:
 go test -coverprofile=coverage.out && go tool cover -html=coverage.out
 
---**************************
---**************************
---**************************
-
 // running an individual test: go test -run [test_func_name]
 go test -v -run Test_isPrime
 
 // running group of tests: go test -v -run [test_func_same_part_name]
 go test -v -run Test_alpha
 
+--**************************
+--**************************
+--**************************
+
+webapp
+
+// init
+go mod init webapp
+
+// mkdir cmd/web
+
+// for routes will use chi
+1. chi faster than default
+2. chi adds a lot functionality with little effors
+
+// get chi
+go get github.com/go-chi/chi/v5
+
+// get middleware
+go get github.com/go-chi/chi/v5/middleware
 --**************************
 --**************************
 --**************************
