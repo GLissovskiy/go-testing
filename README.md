@@ -56,6 +56,9 @@ go get github.com/go-chi/chi/v5
 
 // get middleware
 go get github.com/go-chi/chi/v5/middleware
+
+// run test in current folder and all subfolders:
+go test ./...
 --**************************
 --**************************
 --**************************
